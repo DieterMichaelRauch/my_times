@@ -1,16 +1,70 @@
+#header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
 #my-times {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
   color: MediumAquamarine;
+  padding-left: 30px;
+  height: 60;
+  width: 250;
 }
 
-.nav-out-top ul {
-
+#top {
+  color: black;
+  padding-right: 40px;
 }
 
-.nav-out-top li {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+#content {
+    display: flex;
+    width: 1232px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+    border: 1px solid black;
+  }
+
+#mother {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+#mother h1 {
+  font-family: Georgia;
+      font-weight: bold;
+      color: white;
+}
+
+.column.large div {
+  width: 630px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.column.medium div {
+  width: 300px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.column.small div {
+  width: 240px;
+  border: 1px solid black;
+  display: flex;
+}
+
+p {
+    display: block;
 }
