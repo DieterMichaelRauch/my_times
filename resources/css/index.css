@@ -98,6 +98,23 @@
   display: block;
 }
 
+.story {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .stories {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 17px;
+  }
+
+.stories .text-content {
+  height: 250px;
+  display: block;
+}
+
 h1 {
   font-family: Georgia;
   font-weight: bold;
