@@ -104,15 +104,16 @@
     width: 300px;
   }
 
-  .stories {
+  .column.large .stories {
       display: flex;
       justify-content: space-between;
       margin-top: 17px;
   }
 
-.stories .text-content {
+.column.large .stories .text-content {
   height: 250px;
   display: block;
+  align-items: ;
 }
 
 h1 {
