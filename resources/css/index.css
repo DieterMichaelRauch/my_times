@@ -20,7 +20,7 @@
   width: 250;
 }
 
-#top {
+.top {
   color: black;
   display: inline-block;
   padding: 20px 10px;
@@ -70,7 +70,6 @@
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   width: 630px;
   margin-top: 0;
-  font-size: 40px;
   display: block;
 }
 
@@ -136,4 +135,60 @@ p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 41px;
+  text-align: center;
+}
+
+.bites {
+    display: block;
+    padding: 11px 20px;
+    border-bottom: 1px solid black;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+  }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.mytimes {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+h5 {
+  display: block;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.bottom {
+  font-family: Verdana;
+  font-size: 12px;
+  color: black;
+}
+
+.footer .footerblock {
+  display: block;
 }
